@@ -1,0 +1,52 @@
+[
+  {
+    "type": "factual",
+    "question": "¿Qué significa “tapeando” la pierna, el brazo o verbalmente (“Tap”, “Tapeo” o “Para ya”...)?",
+    "ground_truth": "Significa que un competidor se rinde o es sometido."
+  },
+  {
+    "type": "factual",
+    "question": "¿El “twister” está permitido?",
+    "ground_truth": "Se permite el twister en todas las categorías de adultos, pero no en juveniles."
+  },
+  {
+    "type": "factual",
+    "question": "¿Si defiendo un derribo con una sumisión, se me otorgan puntos?",
+    "ground_truth": "Si recibes cualquiera de los derribos y amenazas con una sumisión, no se te otorgarán puntos hasta que el adversario escape de la sumisión y establezca el control durante 3 segundos o más."
+  },
+  {
+    "type": "factual",
+    "question": "¿En niños o niñas de 13-14 años, nivel de habilidad principiante/intermedio es legal la técnica de Kimura?",
+    "ground_truth": "Sí, en niños o niñas de 13-14 años, nivel de habilidad principiante/intermedio es legal la técnica de Kimura."
+  },
+  {
+    "type": "factual",
+    "question": "¿Cuál es el nivel intermedio de Adultos y Masters?",
+    "ground_truth": "Intermedio de adultos y master: Cinturones azules y púrpura, 2-4 años de entrenamiento."
+  },
+  {
+    "type": "factual",
+    "question": "¿Cuándo se otorgan puntos por rodilla en la barriga?",
+    "ground_truth": "Cuando la rodilla está en el centro del abdomen del oponente; el oponente debe estar tumbado boca arriba y bajo control durante 3 segundos seguidos."
+  },
+  {
+    "type": "multi_hop",
+    "question": "Si un competidor juvenil de 15 años intenta hacer un 'twister' pero sale de los límites, ¿qué pasa?",
+    "ground_truth": "El twister no está permitido en juveniles. Al salir de los límites, ambos competidores vuelven a la posición neutral de pie."
+  },
+  {
+    "type": "multi_hop",
+    "question": "Si un luchador principiante hace un suplex y este cae fuera del tatami, ¿qué pasa?",
+    "ground_truth": "Si sales fuera de los límites durante un derribo, tú y tu oponente comenzarán de pie en posición neutral."
+  },
+  {
+    "type": "negative",
+    "question": "¿Cuál es la norma que regula que los árbitros usen gorra?",
+    "ground_truth": "No tengo información sobre eso en el documento."
+  },
+  {
+    "type": "negative",
+    "question": "¿Cuánto cuesta la inscripción al torneo?",
+    "ground_truth": "No tengo información sobre eso en el documento."
+  }
+]
