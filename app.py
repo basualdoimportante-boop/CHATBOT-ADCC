@@ -17,7 +17,7 @@ load_dotenv()
 try:
     API_KEY = st.secrets["GEMINI_KEY"]
 except Exception:
-    API_KEY = os.getenv("GEMINI_KEY", "AQ.Ab8RN6LMd1CP_ZmaMB569pMezDvRozNs6Tb9r6qikLWKS4L32g")
+    API_KEY = os.getenv("GEMINI_KEY", "PON_TU_CLAVE_AQUI_LOCALMENTE")
 
 # Inicializar cliente forzando v1beta (necesario para claves AQ.)
 client = genai.Client(
